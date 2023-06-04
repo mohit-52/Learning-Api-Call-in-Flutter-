@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learning_api/users_api.dart';
+import 'package:learning_api/users_without_model.dart';
 
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: UserApi(),
+      home: const UserApiWithoutModel(),
     );
   }
 }
