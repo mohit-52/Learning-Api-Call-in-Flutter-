@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learning_api/photos_api.dart';
+import 'package:learning_api/users_api.dart';
 
-import 'home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: PhotosApi(),
+      home: UserApi(),
     );
   }
 }
