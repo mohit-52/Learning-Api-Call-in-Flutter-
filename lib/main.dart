@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_api/photos_api.dart';
 
 import 'home_screen.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: PhotosApi(),
     );
   }
 }
