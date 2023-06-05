@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learning_api/signup.dart';
-
-import 'login.dart';
-
+import 'package:learning_api/upload_image.dart';
 
 
 void main() {
@@ -20,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const LoginScreen(),
+      home: const UploadImageScreen(),
     );
   }
 }
